@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="stylesheet.css?v=31">
+</head>
+<body>
+    <header>
+        <img src="SMG4_2023.png"><h2>SMG4 Radio beta</h2><h3></h3>
+    </header>
+    <div class="container">
+	    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@canary"></script>
+    <ul>
+        <a href='donpollofm.html' target='_blank'>Don pollo Ahh FM</a> <br>
+        <a href='radiomarusyafm.html' target='_blank'>Marusya FM</a> <br>
+        <a href='europaplusfm.html' target='_blank'>Europa Plus FM</a> <br>
+    </ul>
+    <script>plausible('pageview', {
+                props: { next: `wasm=${!!window.WebAssembly}; m=${!!window.MediaSource || !!window.ManagedMediaSource}, hls=${!!document.createElement('video').canPlayType('application/vnd.apple.mpegURL')}, hev=${((window.MediaSource||window.ManagedMediaSource)?.isTypeSupported('video/mp4; codecs="hev1.1.6.L93.B0"') || (window.MediaSource||window.ManagedMediaSource)?.isTypeSupported('video/mp4; codecs="hev1"'))}`
+            }
+     })</script>
+</body>
+</html>
